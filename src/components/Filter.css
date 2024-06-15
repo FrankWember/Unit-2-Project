@@ -1,0 +1,18 @@
+.Filter{
+    position: fixed;
+     left: 100px;
+     top: 70px;
+    
+ }
+ 
+ .filterContainer{
+ 
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: flex-start;
+     padding: 10px;
+     border: 10px;
+     overflow-y: scroll;
+     background-image: linear-gradient( rgb(111, 4, 4), rgb(79, 79, 7), rgb(58, 146, 146), rgb(114, 8, 75), rgb(111, 4, 4));
+   }

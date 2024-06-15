@@ -1,0 +1,22 @@
+.Search{
+   position: fixed;
+    right: 100px;
+    top: 61px;
+}
+
+.SearchButton{
+    position: fixed;
+    right: 30px;
+    top: 60px;
+}
+.searchContainer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px;
+    border: 10px;
+    overflow-y: scroll;
+
+  }

@@ -1,0 +1,8 @@
+.MovieContainer{
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-image: radial-gradient( #122854, rgb(3, 3, 3));
+  }

@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: radial-gradient( #122854, rgb(3, 3, 3));
+  height: 100px;
+  font-size: 90px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 600px) {
+  .movie-card {
+    width: 100%;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-bar form {
+    flex-direction: column;
+  }
+}
+/* src/App.css */
+.ToggleButton {
+  position:absolute;
+  margin: 10px;
+  padding: 6px 14px;
+  font-size:13px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  right: 100px;
+    top: 15px;
+}
+.ToggleSideBarButton{
+  position: absolute;
+  border-radius: 10px ;
+  height: 40px;
+  width: 150px;
+  top: 40px;
+  left: 300px;
+  z-index: 1;
+  background-color:#316733;
+}
+.ToggleSideBarButton:hover {
+  background-color: #45a049;
+}
+
+.ToggleButton:hover {
+  background-color: #45a049;
+}
+
+
+.App-footer {
+  position: absolute;
+  background-image: radial-gradient( #122854, rgb(3, 3, 3));
+  height: 100px;
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: cursive;
+  justify-content: center;
+}
+.Main-App{
+  min-height: 100vh;
+  height: 100%;
+}
+.load{
+  position: relative;
+  margin: 10px;
+  bottom: 30px;
+  right: 45%;
+  justify-content: center;
+  padding: 6px 14px;
+  font-size:13px;
+  cursor: pointer;
+  background-color: #4c66af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+.imgheader{
+  position: relative;
+  right:200px;
+  height: 100px;
+  width:30%;
+  opacity: 0.1;
+}
+.text-footer{
+
+    background-image: radial-gradient( #122854, rgb(3, 3, 3));
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    top: 30px;
+    font-size: 40px;
+    text-align: left;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,75 @@
+.movieCard {
+  position: relative;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(203, 71, 71, 0.19);
+  background-color:rgb(20, 56, 84);
+    padding: 5px;
+    border: rgb(49, 55, 103) solid;
+    width:200px;
+    height: 340px;
+    border-radius: 10px;
+    margin: 3px;
+    margin-bottom: 15px;
+    justify-content: center;
+    opacity: 0.8;
+    overflow-y:visible;
+  }
+  .movieCard:hover{
+    background-color:rgb(50, 112, 156);
+    justify-content: center;
+    border-color: black solid 3px;
+
+  }
+  
+  .CardImage {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    justify-content: center;
+    
+  }
+  .CardImage:hover{
+    height: 235px;
+    transition-duration: 0.4s;
+    position: static;
+  }
+  .CardTitle{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  
+  .rating{
+    position: absolute;
+    font-weight: lighter;
+    color: rgb(167, 181, 193);
+    text-align:left;
+    margin:0px;
+    bottom: 35px;
+  }
+.likeButton{
+  margin-bottom: 5px ;
+  width: 20px;
+  position: absolute;
+  bottom: 0px;
+}
+.WatchedList{
+  margin-bottom: 10px ;
+  width: 70px;
+  height: 10px;
+  padding-bottom: 7px;
+  font-family: cursive;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  font-size:10px;
+  justify-content: center;
+  text-align:center;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
