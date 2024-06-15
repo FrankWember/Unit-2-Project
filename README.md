@@ -55,7 +55,7 @@ I have upload it in my main repository under "Video.mp4"
 
 
 
-*If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
+* If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
 
 I really like my project because I took alot of time to build it. But right now what i look foward to do it to connect my website to a backend and be able to deploy a full functional website
   
