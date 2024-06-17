@@ -4,7 +4,7 @@ Submitted by: Frank Dornberger Wember
 
 Estimated time spent: 70 hours spent in total
 
-Deployed Application (optional): https://flixster-6weg.onrender.com
+Deployed Application (optional): https://flixster-x6ke.onrender.com
 
 ### Application Features
 
